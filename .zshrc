@@ -58,7 +58,6 @@ alias fire-res="xrandr --output DP-2 --mode 1280x800 --display :0"
 alias mac-res="xrandr --output DP-2 --mode 1680x1050 --display :0"
 alias dcam="sudo usbmuxd;iproxy 4747 4747 &;droidcam-cli 127.0.0.1 4747"
 
-#my alias 
 alias cc="sudo dnf autoremove && dnf clean all && flatpak uninstall --unused -y && flatpak remove --delete-data && sudo journalctl --vacuum-time=1weeks"
 alias c="clear"
 alias dnfr="sudo dnf autoremove"
@@ -66,6 +65,7 @@ alias dnfs="dnf search"
 alias dnfi="sudo dnf install"
 alias dnfud="sudo dnf install"
 alias dnfug="sudo dnf install"
+alias dc="docker compose"
 
 export PATH=~/.cargo/bin:$PATH
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
